@@ -99,3 +99,17 @@
 }
 
 /* banner end */
+
+
+.our-sponsors{
+    margin-top: 100px;
+}
+.sponsors-img{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 30px 0px;
+}
