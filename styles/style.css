@@ -335,31 +335,13 @@
  
     /* popular collection */
     .popular-collection{
-        width: 100%;
-        margin: auto; 
-    }
-    .popular-collection-container{
-        width: 100%;
-        justify-content: center;
-        margin: auto;
-    }
-    .popular-collection-container > a{
-        width: 100%;
+        margin: 0;
+        padding: 0;
+        
     }
     .product-item{
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-        gap: 20px 0px;
-    }
-    .items-see-more,
-    .items-see-more  i {
-        padding-right: 20px;
-    }
-    .collection-title{
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 70px;
-        margin-right: 0px;
+        gap: 20px;
     }
     /* collection end */
 
@@ -406,7 +388,7 @@
     }
    /* featured section end */
 
-
+ /* footer section start */
    .footer-section{
         width: 360px;
         height: 211px;
@@ -421,4 +403,5 @@
    .footer-content h3{
     padding-top: 30px;
    }
+   /* footer end */
 }
