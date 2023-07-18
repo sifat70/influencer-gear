@@ -171,6 +171,7 @@
     padding-top: 30px;
     text-align: right;
     position: relative;
+    padding-right: 20px;
     left: 20px;
 }
 .items-see-more a{
@@ -327,7 +328,35 @@
         gap: 20px;
         /* padding: 30px 0px; */
         justify-content: center;
-        margin: auto;
-        
+        margin: auto;        
     }
+
+    /* sponsors end */
+ 
+    /* popular collection */
+    .popular-collection{
+        width: 100%;       
+    }
+    .popular-collection-container{
+        max-width: 100%;
+        justify-content: center;
+    }
+    .product-item{
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+        margin: auto;
+        margin-right: 0;
+    }
+    .items-see-more,
+    .items-see-more  i {
+        padding-right: 20px;
+        margin-right: 0px;
+    }
+    .collection-title{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 70px;
+        margin-right: 0px;
+    }
+    /* collection end */
 }
