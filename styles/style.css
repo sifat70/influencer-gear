@@ -271,6 +271,9 @@
 /* resposive with mobile device */
 
 @media screen and (max-width: 576px) {
+    body{
+        width: 100%;
+    }
     .nav-container,
     .nav-menus >ul{
         flex-direction: column;
@@ -313,4 +316,18 @@
     }
 
     /* banner end */
+
+    .our-sponsors{
+        padding-top: 100px;
+        padding-left: 0px;
+    }
+    .sponsors-img{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        /* padding: 30px 0px; */
+        justify-content: center;
+        margin: auto;
+        
+    }
 }
